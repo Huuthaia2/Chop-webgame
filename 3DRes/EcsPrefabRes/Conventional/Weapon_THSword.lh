@@ -1,0 +1,40 @@
+{
+	"version":"LAYAHIERARCHY:02",
+	"data":{
+		"type":"MeshSprite3D",
+		"instanceID":2,
+		"props":{
+			"name":"Weapon_THSword",
+			"active":true,
+			"isStatic":false,
+			"layer":0,
+			"position":[
+				0,
+				0,
+				0
+			],
+			"rotation":[
+				0,
+				0,
+				0,
+				1
+			],
+			"scale":[
+				1.37482,
+				1.37482,
+				1.37482
+			],
+			"meshPath":"Assets/Laya3DRes/Model/Weapon/TH Sword 01-TH Sword 01.lm",
+			"enableRender":true,
+			"receiveShadows":true,
+			"castShadow":true,
+			"materials":[
+				{
+					"path":"Assets/Laya3DRes/Model/Weapon/TH Sword 01 Black.lmat"
+				}
+			]
+		},
+		"components":[],
+		"child":[]
+	}
+}

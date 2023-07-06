@@ -1,0 +1,20 @@
+{"PurchaseDataList":[
+{"ID":"dl.io.chop.01","Info":"首充","Bonus":["Hero_Plumber","Coin_10000","Diamond_1000"],"PriceType ":"US","Amount":0.99,"Data":""},
+{"ID":"dl.io.chop.02","Info":"成长英雄礼包","Bonus":["Hero_Assassin7"],"PriceType ":"US","Amount":9.99,"Data":""},
+{"ID":"dl.io.chop.03","Info":"稀有装备礼包","Bonus":["Head_7_3_4","Chest_7_3_4","Foot_7_3_4","Ring_7_3_4","Ring_7_3_4"],"PriceType ":"US","Amount":1.99,"Data":"MaxHp_80,AttSpeedPer_3,CritPer_5,LifeLeechPer_5|MaxHp_100,ParryChance_7,CritPer_5,LifeLeechPer_5|MaxHp_60,AttSpeedPer_3,SpeedPer_5,DodgePer_2|MaxHp_50,AttSpeedPer_2.5,DmgPer_2.5,LifeLeechPer_2.5|MaxHp_50,AttSpeedPer_2.5,DmgPer_2.5,LifeLeechPer_2.5"},
+{"ID":"dl.io.chop.04","Info":"传奇装备礼包","Bonus":["Head_7_4_4","Chest_7_4_4","Foot_7_4_4","Ring_7_4_4","Ring_7_4_4"],"PriceType ":"US","Amount":6.66,"Data":"MaxHp_100,AttSpeedPer_3,CritPer_6,LifeLeechPer_6|MaxHp_120,ParryChance_8,CritPer_6,LifeLeechPer_6|Skill_Spin_1,AttSpeedPer_3,SpeedPer_6,CritPer_2.8|Skill_Invincible_1,AttSpeedPer_2.8,DmgPer_3,LifeLeechPer_3|MaxHp_60,Heal_6,DmgPer_3,LifeLeechPer_3"},
+{"ID":"dl.io.chop.05","Info":"武器礼包","Bonus":["WeaponSkin_HammerofThor","Diamond_12000"],"PriceType ":"US","Amount":9.99,"Data":""},
+{"ID":"dl.io.chop.06","Info":"史诗装备礼包","Bonus":["Head_7_5_4","Chest_7_5_4","Foot_7_5_4","Ring_7_5_4","Ring_7_5_4"],"PriceType ":"US","Amount":9.99,"Data":"MaxHp_120,Heal_5,AttSpeedPer_3.5,CritPer_7,LifeLeechPer_7|MaxHp_140,ParryChance_9,AttSpeedPer_3.5,CritPer_7,LifeLeechPer_7|Skill_Spin_2,AttSpeedPer_3.5,SpeedPer_6,DodgePer_2,CritPer_3|Skill_Invincible_2,Heal_7,AttSpeedPer_3,DmgPer_3,LifeLeechPer_3.5|MaxHp_70,Heal_7,AttSpeedPer_3,DmgPer_3,LifeLeechPer_3.5"},
+{"ID":"dl.io.chop.07","Info":"免广告卡：免除激励广告","Bonus":["FreeVideoCard"],"PriceType ":"US","Amount":9.99,"Data":""},
+{"ID":"dl.io.chop.08","Info":"特权卡：1.武器自动合成2.转盘次数每日新增3次3.限时商店免费刷新10次4.额外领取等级奖励","Bonus":["VipCard"],"PriceType ":"US","Amount":4.99,"Data":""},
+{"ID":"dl.io.chop.09","Info":"600","Bonus":["Diamond_600"],"PriceType ":"US","Amount":0.99,"Data":""},
+{"ID":"dl.io.chop.10","Info":"3000","Bonus":["Diamond_3000"],"PriceType ":"US","Amount":4.99,"Data":""},
+{"ID":"dl.io.chop.11","Info":"6800","Bonus":["Diamond_6800"],"PriceType ":"US","Amount":9.99,"Data":""},
+{"ID":"dl.io.chop.12","Info":"12800","Bonus":["Diamond_12800"],"PriceType ":"US","Amount":19.99,"Data":""},
+{"ID":"dl.io.chop.13","Info":"32800","Bonus":["Diamond_32800"],"PriceType ":"US","Amount":49.99,"Data":""},
+{"ID":"dl.io.chop.14","Info":"64800","Bonus":["Diamond_64800"],"PriceType ":"US","Amount":99.99,"Data":""},
+{"ID":"mn.io.chop.01","Info":"首冲","Bonus":["Hero_Plumber","Coin_10000","Diamond_1000"],"PriceType ":"US","Amount":1,"Data":""},
+{"ID":"mn.io.chop.02","Info":"","Bonus":[],"PriceType ":"US","Amount":0,"Data":""},
+{"ID":"mn.io.chop.03","Info":"月卡","Bonus":["VipCard"],"PriceType ":"US","Amount":3,"Data":""},
+{"ID":"mn.io.chop.04","Info":"免广告卡：免除激励广告","Bonus":["FreeVideoCard"],"PriceType ":"US","Amount":6,"Data":""}
+]}

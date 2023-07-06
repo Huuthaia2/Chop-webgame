@@ -1,0 +1,25 @@
+{
+  "appId":"Test Game",
+  "vconsole":false,
+  "afg":{
+    "attributes":{
+      "data-ad-client":"ca-pub-3962242587190395",
+      "data-ad-channel":"4107164806",
+      "data-ad-frequency-hint":"30s",
+      "crossorigin":"anonymous"
+    },
+    "config":{
+      "preloadAdBreaks":"on",
+      "onReady": true,
+      "preroll": false
+    }
+  },
+  "ga":{   
+    "attributes":{
+
+    },
+    "config":{
+      "gid":"G-ETWPFZ5BY6"
+    }
+  }
+}
