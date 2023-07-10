@@ -54,13 +54,13 @@
             "enabled": false
         }
     },
-    "ads_disabled": true,
+    "ads_disabled": false,
     "match": {
         "enabled": false,
         "platform": ""
     },
     "event": {
-        "enabled": true,
+        "enabled": false,
         "interstitialAdInterval": 0
     }
 }
