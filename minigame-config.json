@@ -1,6 +1,6 @@
 {
   "appId":"Test Game",
-  "vconsole":false,
+  "vconsole":true,
   "afg":{
     "attributes":{
       "data-ad-client":"ca-pub-3962242587190395",
