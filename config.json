@@ -10,7 +10,7 @@
     "game_menu": {
         "game_helper": true
     },
-    "vconsole": true,
+    "vconsole": false,
     "heartbeat": null,
     "pay_config": {
         "enabled": false,
@@ -54,7 +54,7 @@
             "enabled": false
         }
     },
-    "ads_disabled": false,
+    "ads_disabled": true,
     "match": {
         "enabled": false,
         "platform": ""
