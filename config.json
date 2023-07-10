@@ -13,7 +13,7 @@
     "vconsole": false,
     "heartbeat": null,
     "pay_config": {
-        "enabled": false,
+        "enabled": true,
         "url": ""
     },
     "afg": {
@@ -27,10 +27,10 @@
         "config": {
             "preloadAdBreaks": "on",
             "onReady": true,
-            "preroll": false,
-            "banner": false,
-            "interstitial_for_rewarded": false,
-            "ignorePreload": false
+            "preroll": true,
+            "banner": true,
+            "interstitial_for_rewarded": true,
+            "ignorePreload": true
         }
     },
     "m150ad": {
