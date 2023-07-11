@@ -6518,6 +6518,7 @@ please click the button.`, e.btnFunc = () => {
 		},
 		setSessionData: function (e) { },
 		startGameAsync: function () {
+			window.MiniGameAds.isTest = true;
 			return N.instance.invokeQuickServiceAsync(zn.START_GAME, !0), ti = window.MiniGameAds && window.MiniGameAds.isTest ? (console.info("====> MiniGameAds is test mode"), Yn) : (console.info("====> MiniGameAds is normal mode"), Qn), o.emptyWait()
 		},
 		shareAsync: function (t) {
@@ -6556,9 +6557,11 @@ please click the button.`, e.btnFunc = () => {
 			return o.emptyWaitObject(Mn.create(e, !1))
 		},
 		getRewardedInterstitialAsync: function (e) {
+			console.log("zzz reward inter");
 			return o.emptyWaitObject(Mn.create(e, !1))
 		},
 		getRewardedVideoAsync: function (e) {
+			console.log("zzz reward");
 			return o.emptyWaitObject(Mn.create(e, !0))
 		},
 		matchPlayerAsync: function (e, t, s) {
