@@ -253,7 +253,7 @@ if (window['FBInstant']) {
     window['IsGmFromSever'] = false
     window["use2021NewYear"] = false
     window['isGuidance'] = false
-    window['IsInWebTest'] = true
+    window['IsInWebTest'] = false
     window['IsGM'] = false
     window['projectVersion'] = "1.0.26"
 

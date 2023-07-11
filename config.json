@@ -54,7 +54,7 @@
             "enabled": false
         }
     },
-    "ads_disabled": false,
+    "ads_disabled": true,
     "match": {
         "enabled": false,
         "platform": ""
