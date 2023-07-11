@@ -4,7 +4,7 @@ window['v_release'] = '1.2.3'
 window['v_releaseMark'] = '01'
 window['Platform'] = "WECHAT"
 window['appid'] = "wxfed11f69958fe340"
-window['IsInWebTest'] = false
+window['IsInWebTest'] = true
 window['IsGM'] = true
 window['isTestLog'] = false
 
@@ -253,7 +253,7 @@ if (window['FBInstant']) {
     window['IsGmFromSever'] = false
     window["use2021NewYear"] = false
     window['isGuidance'] = false
-    window['IsInWebTest'] = false
+    window['IsInWebTest'] = true
     window['IsGM'] = false
     window['projectVersion'] = "1.0.26"
 
