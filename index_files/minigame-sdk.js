@@ -5983,6 +5983,7 @@ please click the button.`, e.btnFunc = () => {
 			})
 		}
 		showAsync(t) {
+			console.log("showAsync t");
 			try {
 				var e = this._ads.find(e => e.getRewardedType() === t);
 				return this._curAd = e, console.info("====> showAsync: ad ing"), e.showAsync()
@@ -6163,6 +6164,7 @@ please click the button.`, e.btnFunc = () => {
 			return window.MiniGameAds && window.MiniGameAds.isTest ? (e = new Nn(this._placementId, this._isRewardedAd), En.instance.loadAsync(e).then(() => (console.info("test ad load service return success"), Promise.resolve())).catch(e => (console.info("test ad load service return error: ", e), Promise.reject(e)))) : N.instance.invokeServiceAsync(jn.createRequest(t)).then(() => Promise.resolve()).catch(e => (console.info("Ad load service return error: ", e), Promise.reject(e)))
 		}
 		showAsync() {
+			console.log("showAsync");
 			if (window.MiniGameAds && !1 === window.MiniGameAds._enabled) return Promise.resolve();
 			var e = {
 				isRewardedAd: this._isRewardedAd,
@@ -6517,8 +6519,7 @@ please click the button.`, e.btnFunc = () => {
 			return o.emptyWaitString("UNKNOWN")
 		},
 		setSessionData: function (e) { },
-		startGameAsync: function () {
-			window.MiniGameAds.isTest = true;
+		startGameAsync: function () { 
 			return N.instance.invokeQuickServiceAsync(zn.START_GAME, !0), ti = window.MiniGameAds && window.MiniGameAds.isTest ? (console.info("====> MiniGameAds is test mode"), Yn) : (console.info("====> MiniGameAds is normal mode"), Qn), o.emptyWait()
 		},
 		shareAsync: function (t) {
