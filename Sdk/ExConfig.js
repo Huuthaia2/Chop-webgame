@@ -4,7 +4,7 @@ window['v_release'] = '1.2.3'
 window['v_releaseMark'] = '01'
 window['Platform'] = "WECHAT"
 window['appid'] = "wxfed11f69958fe340"
-window['IsInWebTest'] = true
+window['IsInWebTest'] = false
 window['IsGM'] = true
 window['isTestLog'] = false
 
@@ -45,7 +45,7 @@ window['FBLogin'] = false
 if (window['qq']) {
     window['Platform'] = "QQ"
     window['appid'] = "1111179415"
-    window['IsInWebTest'] = true
+    window['IsInWebTest'] = false
 
     window['v_releaseMark'] = '05' //--05为qq渠道
     window['projectVersion'] = '1.0.16'
@@ -57,7 +57,7 @@ if (window['qq']) {
 if (window['tt']) {
 
     window["useNewYearKey"] = true
-    window['IsInWebTest'] = true
+    window['IsInWebTest'] = false
     window['Platform'] = "TT"
     window['projectVersion'] = '1.3.6'
     window['appid'] = "tt72d6046bededa267"
@@ -74,7 +74,7 @@ if (window['tt']) {
 
 if (window['getAdapterInfo']) {
     window['Platform'] = 'KUAISHOU'
-    window['IsInWebTest'] = true
+    window['IsInWebTest'] = false
     window["useNewYearKey"] = true
     window['projectVersion'] = '1.0.1'
     window["useCDKey"] = true
@@ -87,7 +87,7 @@ if (window['qg'] && window['qg'].setLoadingProgress) {
     window['language'] = "ZH_CN"
     window['Platform'] = 'OPPO'
     window['appid'] = "30469555"
-    window['IsInWebTest'] = true
+    window['IsInWebTest'] = false
     window["useNewYearKey"] = false
     window['projectVersion'] = '1.1.5'
     window["useCDKey"] = false
@@ -100,7 +100,7 @@ if (window['qg'] && window['qg'].setLoadingProgress) {
     window['Platform'] = 'VIVO'
     window['appid'] = "105467096"
     window['IsGM'] = false
-    window['IsInWebTest'] = true
+    window['IsInWebTest'] = false
     window["useNewYearKey"] = false
     window['projectVersion'] = '1.1.6'
     window["useCDKey"] = false
@@ -253,7 +253,7 @@ if (window['FBInstant']) {
     window['IsGmFromSever'] = false
     window["use2021NewYear"] = false
     window['isGuidance'] = false
-    window['IsInWebTest'] = true
+    window['IsInWebTest'] = false
     window['IsGM'] = false
     window['projectVersion'] = "1.0.26"
 
