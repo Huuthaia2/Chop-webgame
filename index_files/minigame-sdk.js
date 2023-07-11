@@ -5607,6 +5607,9 @@ please click the button.`, e.btnFunc = () => {
 			})
 		}
 		showAsync(t) {
+			this._refreshTotalShowTimeCallback && this._refreshTotalShowTimeCallback()
+			return;
+			
 			if (0 === this.adsNames.length) return console.info("====> No Substitute Ads's config"), Promise.reject({
 				code: "AdsSubstitute show error",
 				message: "No Substitute Ads's config"
@@ -6563,6 +6566,8 @@ please click the button.`, e.btnFunc = () => {
 		},
 		getRewardedVideoAsync: function (e) {
 			console.log("zzz reward");
+			this._refreshTotalShowTimeCallback && this._refreshTotalShowTimeCallback()
+			return;
 			return o.emptyWaitObject(Mn.create(e, !0))
 		},
 		matchPlayerAsync: function (e, t, s) {
