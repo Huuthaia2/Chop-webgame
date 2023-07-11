@@ -4586,7 +4586,7 @@ please click the button.`, e.btnFunc = () => {
 		}
 		onShow() {
 			var e;
-			null != (e = this.cbOptions) && e.onShow()
+			null != (e = this.cbOptions) && e.onSuccess()
 		}
 		onSuccess() {
 			var e;
@@ -5502,6 +5502,8 @@ please click the button.`, e.btnFunc = () => {
 			})
 		}
 		showAsync() {
+			this._refreshTotalShowTimeCallback && this._refreshTotalShowTimeCallback()
+			return;
 			return u(this, void 0, void 0, function* () {
 				try {
 					var e;
@@ -5559,6 +5561,8 @@ please click the button.`, e.btnFunc = () => {
 			})
 		}
 		showAsync() {
+			this._refreshTotalShowTimeCallback && this._refreshTotalShowTimeCallback()
+			return;
 			try {
 				var e = this._adInstants.shift();
 				return this.curAdName = e.getStrategyName(), (this._curAdInstant = e).showAsync()
@@ -6566,9 +6570,9 @@ please click the button.`, e.btnFunc = () => {
 		},
 		getRewardedVideoAsync: function (e) {
 			console.log("zzz reward");
-			this._refreshTotalShowTimeCallback && this._refreshTotalShowTimeCallback()
-			return;
-			return o.emptyWaitObject(Mn.create(e, !0))
+			// this._refreshTotalShowTimeCallback && this._refreshTotalShowTimeCallback()
+			// return;
+			return o.emptyWaitObject(Mn.create(e, !1))
 		},
 		matchPlayerAsync: function (e, t, s) {
 			return o.emptyWait()
