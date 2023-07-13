@@ -139,7 +139,7 @@ if (window.conchConfig) {
             window['useCDKey'] = false
             window['IsGM'] = false
             window['IsGmFromSever'] = false
-            window['FBLogin'] = true;
+            window['FBLogin'] = false;
             window['v_releaseMark'] = '21' //--MINIGAME
             //要关引导
             window['isGuidance'] = false
@@ -222,7 +222,7 @@ if (window.conchConfig) {
             window['useCDKey'] = false
             window['IsGM'] = false
             window['IsGmFromSever'] = false
-            window['FBLogin'] = true;
+            window['FBLogin'] = false;
             window['v_releaseMark'] = '21' //--MINIGAME
             window["useRate"] = false
             //要关引导
