@@ -9,7 +9,7 @@
       "crossorigin":"anonymous"
     },
     "config":{
-      "preloadAdBreaks":"on",
+      "preloadAdBreaks":"off",
       "onReady": true,
       "preroll": false
     }

@@ -25,7 +25,7 @@
             "data-ad-frequency-hint": "30s"
         },
         "config": {
-            "preloadAdBreaks": "on",
+            "preloadAdBreaks": "off",
             "onReady": true,
             "preroll": false,
             "banner": false,
