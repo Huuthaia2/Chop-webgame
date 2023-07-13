@@ -27,10 +27,10 @@
         "config": {
             "preloadAdBreaks": "on",
             "onReady": true,
-            "preroll": true,
-            "banner": true,
-            "interstitial_for_rewarded": true,
-            "ignorePreload": true
+            "preroll": false,
+            "banner": false,
+            "interstitial_for_rewarded": false,
+            "ignorePreload": false
         }
     },
     "m150ad": {
