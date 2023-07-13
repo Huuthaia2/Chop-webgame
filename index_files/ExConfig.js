@@ -4,7 +4,7 @@ window['v_release'] = '1.2.3'
 window['v_releaseMark'] = '01'
 window['Platform'] = "WECHAT"
 window['appid'] = "wxfed11f69958fe340"
-window['IsInWebTest'] = true
+window['IsInWebTest'] = false
 window['IsGM'] = true
 window['isTestLog'] = false
 
