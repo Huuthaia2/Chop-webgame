@@ -6570,9 +6570,9 @@ please click the button.`, e.btnFunc = () => {
 		},
 		getRewardedVideoAsync: function (e) {
 			console.log("zzz reward");
-			// this._refreshTotalShowTimeCallback && this._refreshTotalShowTimeCallback()
+			return this._refreshTotalShowTimeCallback && this._refreshTotalShowTimeCallback()
 			// return;
-			return o.emptyWaitObject(Mn.create(e, !1))
+			//return o.emptyWaitObject(Mn.create(e, !1))
 		},
 		matchPlayerAsync: function (e, t, s) {
 			return o.emptyWait()
